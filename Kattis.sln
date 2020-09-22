@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Pot", "Pot.fsproj", "{97C8C600-CF73-4159-8148-FC2F28A69364}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Pot", "Pot\Pot.fsproj", "{97C8C600-CF73-4159-8148-FC2F28A69364}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Planina", "Planina\Planina.fsproj", "{CF3C3877-C977-41A1-8208-39D52E24E004}"
 EndProject
