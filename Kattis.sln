@@ -18,6 +18,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Harshad", "Harshad\Harshad.
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FreeFood", "FreeFood\FreeFood.fsproj", "{6D04BB30-09E1-4BA3-80CB-B096E631C35D}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Datum", "Datum\Datum.fsproj", "{A68E4F39-149C-4B2A-AA77-D5978E43F26B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{6D04BB30-09E1-4BA3-80CB-B096E631C35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D04BB30-09E1-4BA3-80CB-B096E631C35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D04BB30-09E1-4BA3-80CB-B096E631C35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68E4F39-149C-4B2A-AA77-D5978E43F26B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68E4F39-149C-4B2A-AA77-D5978E43F26B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68E4F39-149C-4B2A-AA77-D5978E43F26B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68E4F39-149C-4B2A-AA77-D5978E43F26B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
