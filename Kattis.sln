@@ -26,6 +26,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SortOfSorting", "SortOfSort
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Babelfish", "Babelfish\Babelfish.fsproj", "{691E8DF8-769C-4CB6-9223-7AB29C1E8C63}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BridgesAndTunnels", "BridgesAndTunnels\BridgesAndTunnels.fsproj", "{5834369E-9479-46AB-A54F-5A0B74D01C54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{691E8DF8-769C-4CB6-9223-7AB29C1E8C63}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{691E8DF8-769C-4CB6-9223-7AB29C1E8C63}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{691E8DF8-769C-4CB6-9223-7AB29C1E8C63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5834369E-9479-46AB-A54F-5A0B74D01C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5834369E-9479-46AB-A54F-5A0B74D01C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5834369E-9479-46AB-A54F-5A0B74D01C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5834369E-9479-46AB-A54F-5A0B74D01C54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
