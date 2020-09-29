@@ -5,19 +5,32 @@ open System
 [<EntryPoint>]
 let main argv =
     let cases = Console.ReadLine() |> int
-    let rec createSet (acc:Set<string>) x n =
+    
+    let rec searchSets (acc:Set<string>) building (setLst:List<Set<string>>) =
+        match setLst with
+            | []  -> if acc.IsEmpty then acc.Add(building)
+                     else acc
+                     
+            | a::ac -> if a.Contains(building) then searchSets (Set.union a acc) building ac 
+                       else searchSets acc building ac
+
+
+    let rec createLstSet (acc:List<Set<string>>) countLst n =
         function
-            | "" | null -> x
-            | a when n>0 -> let buildings = a.Split(" ")
-                            let firstAcc = acc.Add(buildings.[0])
-                            let secondAcc = firstAcc.Add(buildings.[1])
-                            createSet (secondAcc) ((secondAcc.Count)::x) (n-1) (Console.ReadLine())
-            | _ -> x
-    let printlist = List.rev (createSet (Set.empty) [] cases (Console.ReadLine()))
+            | [] | [""] -> countLst
+            | a when n > 0 -> let b1 = searchSets Set.empty a.[0] acc 
+                              let b2 = searchSets Set.empty a.[1] acc
+                              createLstSet ((Set.union b1 b2)::acc) (((Set.union b1 b2).Count)::countLst) (n-1) (Console.ReadLine().Split(" ") |> List.ofArray)
+            | _ -> countLst
+    
+    
     let rec print =
         function
           | [] -> ()
           | a::ac -> printfn "%d" a
                      print ac
-    print printlist
+                     
+    let first = Console.ReadLine().Split(" ") |> List.ofArray 
+    let firstSet = first |> Set.ofList
+    print (List.rev (createLstSet [firstSet] [] cases (first)))
     0 // return an integer exit code

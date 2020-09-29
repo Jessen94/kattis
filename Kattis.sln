@@ -28,6 +28,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Babelfish", "Babelfish\Babe
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BridgesAndTunnels", "BridgesAndTunnels\BridgesAndTunnels.fsproj", "{5834369E-9479-46AB-A54F-5A0B74D01C54}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BatterUp", "BatterUp\BatterUp.fsproj", "{5F9CC375-595D-4922-9A07-B89D3987FC54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{5834369E-9479-46AB-A54F-5A0B74D01C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5834369E-9479-46AB-A54F-5A0B74D01C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5834369E-9479-46AB-A54F-5A0B74D01C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F9CC375-595D-4922-9A07-B89D3987FC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9CC375-595D-4922-9A07-B89D3987FC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9CC375-595D-4922-9A07-B89D3987FC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9CC375-595D-4922-9A07-B89D3987FC54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
