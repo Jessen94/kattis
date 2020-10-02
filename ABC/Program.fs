@@ -15,16 +15,11 @@ let main argv =
             | a::ac when a = 'A'  -> printOrder (A::acc) ac
             | a::ac when a = 'B'  -> printOrder (B::acc) ac
             | a::ac when a = 'C'  -> printOrder (C::acc) ac
-            | _ -> let rec rev ac2 =
-                        function
-                            | [] -> ac2
-                            | a::ac -> rev (a::ac2) ac
-                   let correctOrder = rev [] acc
-                   let rec print =
+            | _ -> let rec print =
                        function
                            | [] -> ()
                            | a::ac -> Console.Write(a+" ")
                                       print ac
-                   print correctOrder
+                   print (List.rev acc)
     printOrder [] order
     0 // return an integer exit code
