@@ -40,6 +40,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "aaah", "aaah\aaah.fsproj", 
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ANewAlphabet", "ANewAlphabet\ANewAlphabet.fsproj", "{0F2F8869-C7C8-4567-A9D4-BC39DF96FDA8}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SpeedLimit", "SpeedLimit\SpeedLimit.fsproj", "{0AB0299E-2E2A-44A6-9122-46C2A345E77B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -126,5 +128,9 @@ Global
 		{0F2F8869-C7C8-4567-A9D4-BC39DF96FDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F2F8869-C7C8-4567-A9D4-BC39DF96FDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F2F8869-C7C8-4567-A9D4-BC39DF96FDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AB0299E-2E2A-44A6-9122-46C2A345E77B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AB0299E-2E2A-44A6-9122-46C2A345E77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AB0299E-2E2A-44A6-9122-46C2A345E77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AB0299E-2E2A-44A6-9122-46C2A345E77B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
