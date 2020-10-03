@@ -5,20 +5,17 @@ open System
 [<EntryPoint>]
 let main argv =
     let numbers = Console.ReadLine().Split(" ")
-    let order = Console.ReadLine().ToCharArray() |> List.ofArray
-    let sortedNumbers = Seq.ofArray numbers |> Seq.sort |> Array.ofSeq
-    let A = sortedNumbers.[0]
-    let B = sortedNumbers.[1]
-    let C = sortedNumbers.[2]
-    let rec printOrder acc word =
-         match word with
-            | a::ac when a = 'A'  -> printOrder (A::acc) ac
-            | a::ac when a = 'B'  -> printOrder (B::acc) ac
-            | a::ac when a = 'C'  -> printOrder (C::acc) ac
+    let order = Console.ReadLine().Trim().ToCharArray() |> List.ofArray
+    let rec printOrder acc  =
+         let sortedArray = Array.map(fun e -> (e|>int)) numbers |> Array.sortDescending
+         function
+            | a::ac when a = 'A'  -> printOrder (sortedArray.[2]::acc) ac
+            | a::ac when a = 'B'  -> printOrder (sortedArray.[1]::acc) ac
+            | a::ac when a = 'C'  -> printOrder (sortedArray.[0]::acc) ac
             | _ -> let rec print =
                        function
                            | [] -> ()
-                           | a::ac -> Console.Write(a+" ")
+                           | z::ac -> Console.Write(z.ToString()+" ")
                                       print ac
                    print (List.rev acc)
     printOrder [] order

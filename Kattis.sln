@@ -36,6 +36,10 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "NastyHacks", "NastyHacks\Na
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FizzBuzz", "FizzBuzz\FizzBuzz.fsproj", "{471B96C6-2AA7-494C-9993-B0A7635C7658}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "aaah", "aaah\aaah.fsproj", "{C577A122-2D31-4CD7-9F2C-484DE4027120}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "ANewAlphabet", "ANewAlphabet\ANewAlphabet.fsproj", "{0F2F8869-C7C8-4567-A9D4-BC39DF96FDA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -114,5 +118,13 @@ Global
 		{471B96C6-2AA7-494C-9993-B0A7635C7658}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{471B96C6-2AA7-494C-9993-B0A7635C7658}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{471B96C6-2AA7-494C-9993-B0A7635C7658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C577A122-2D31-4CD7-9F2C-484DE4027120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C577A122-2D31-4CD7-9F2C-484DE4027120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C577A122-2D31-4CD7-9F2C-484DE4027120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C577A122-2D31-4CD7-9F2C-484DE4027120}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F2F8869-C7C8-4567-A9D4-BC39DF96FDA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F2F8869-C7C8-4567-A9D4-BC39DF96FDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F2F8869-C7C8-4567-A9D4-BC39DF96FDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F2F8869-C7C8-4567-A9D4-BC39DF96FDA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
