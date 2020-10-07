@@ -14,3 +14,5 @@ let DiceCup =
             | (false,false,true) -> for i in (a+1) .. (b+1) do
                                     printfn "%d" i
     print 
+
+
