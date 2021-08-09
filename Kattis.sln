@@ -68,6 +68,10 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LtL", "LtL\LtL.fsproj", "{4
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "recount", "recount\recount.fsproj", "{47A80395-45E5-4F0E-BB61-2F440FCB89BB}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Tarifa", "Tarifa\Tarifa.fsproj", "{4ED5756B-DE00-4114-AAD5-59B37838BF05}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Echo_echo_echo", "Echo_echo_echo\Echo_echo_echo.fsproj", "{278CEB57-B70E-4D6C-98B0-CF917ACB6BCF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -210,5 +214,13 @@ Global
 		{47A80395-45E5-4F0E-BB61-2F440FCB89BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47A80395-45E5-4F0E-BB61-2F440FCB89BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47A80395-45E5-4F0E-BB61-2F440FCB89BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ED5756B-DE00-4114-AAD5-59B37838BF05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ED5756B-DE00-4114-AAD5-59B37838BF05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ED5756B-DE00-4114-AAD5-59B37838BF05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ED5756B-DE00-4114-AAD5-59B37838BF05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{278CEB57-B70E-4D6C-98B0-CF917ACB6BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278CEB57-B70E-4D6C-98B0-CF917ACB6BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278CEB57-B70E-4D6C-98B0-CF917ACB6BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278CEB57-B70E-4D6C-98B0-CF917ACB6BCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
